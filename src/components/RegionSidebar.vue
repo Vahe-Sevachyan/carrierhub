@@ -13,10 +13,8 @@
   </div>
 </template>
 
-<script>
-export default {
-  props: ["regions"],
-};
+<script setup>
+defineProps(["regions"]);
 </script>
 
 <style>
