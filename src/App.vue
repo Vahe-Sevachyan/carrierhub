@@ -1,5 +1,5 @@
 <template>
-  <div class="app-container">
+  <div class="flex h-screen bg-gray-900 text-white">
     <RegionSidebar
       :regions="regions"
       @add-region="showRegionModal = true"
@@ -81,8 +81,4 @@ const deleteClient = (clientId) => {
 };
 </script>
 
-<style>
-.app-container {
-  display: flex;
-}
-</style>
+<style></style>
